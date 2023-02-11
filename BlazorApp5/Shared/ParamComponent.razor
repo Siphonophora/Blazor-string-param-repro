@@ -1,0 +1,5 @@
+﻿<div>@Input @(Input.Contains("\n") ? "Does" : "Does NOT") contain "\n"</div>
+
+@code {
+    [Parameter] public string Input { get; set; }
+}
